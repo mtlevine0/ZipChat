@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+	<Resource name="jdbc/MySQLZipChat"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="root"
+		password="test"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://192.168.1.139:3306/dev"
+		maxTotal="15"
+		maxIdle="3"/>
+</Context>
